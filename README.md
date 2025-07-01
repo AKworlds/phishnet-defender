@@ -18,13 +18,33 @@
 ## 📂 Project Structure
 phishnet_defender/
 │
-├── app/ # Streamlit frontend
-├── data/ # Email and URL datasets
-├── models/ # Trained models (email & URL)
-├── notebooks/ # Jupyter notebooks for experimentation
-├── src/ # Core ML logic (preprocessing, training, evaluation)
-├── train.all.py # Auto-retraining script
-└── requirements.txt # Python dependencies
+├── app/                  # Streamlit frontend
+│   └── streamlit_app.py
+│
+├── data/                 # Datasets (emails and URLs)
+│   ├── phishing_emails.csv
+│   ├── legit_emails.csv
+│   ├── urls_phishing.csv
+│   └── urls_legit.csv
+│
+├── models/               # Trained ML models
+│   ├── phishnet_model.pkl
+│   └── url_model.pkl
+│
+├── notebooks/            # Jupyter Notebooks for experimentation
+│   └── 01-train-eval.ipynb
+│
+├── src/                  # Core ML logic and feature extraction
+│   ├── model.py
+│   ├── preprocessing.py
+│   ├── evaluate.py
+│   ├── url_model.py
+│   └── utils.py
+│
+├── train.all.py          # Auto-retraining script
+├── requirements.txt      # Python dependencies
+└── .env                  # API keys and secrets (excluded via .gitignore)
+
 
 
 ---
