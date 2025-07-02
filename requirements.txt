@@ -1,0 +1,12 @@
+# Core dependencies
+streamlit
+pandas
+scikit-learn
+joblib
+requests
+python-dotenv
+tldextract
+validators
+notebook
+ipykernel
+dnspython
