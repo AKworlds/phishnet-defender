@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Model binaries and logs (if models are versioned elsewhere)
+*.pkl
+*.log
+
+# Jupyter outputs
+.ipynb_checkpoints/

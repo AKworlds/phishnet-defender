@@ -1,3 +1,4 @@
+
 text,label
 "Meeting agenda for Monday attached",0
 "Here is the invoice for last month",0
@@ -9,3 +10,16 @@ text,label
 "Weekly newsletter from your team",0
 "Client meeting rescheduled to Thursday",0
 "Notes from today’s class",0
+
+text,label
+"Meeting agenda for Monday attached",0
+"Here is the invoice for last month",0
+"Reminder: Project deadline next week",0
+"Team lunch at 12:30",0
+"Your Amazon order has shipped",0
+"Monthly performance review scheduled",0
+"Attached: Q3 financial report",0
+"Weekly newsletter from your team",0
+"Client meeting rescheduled to Thursday",0
+"Notes from today’s class",0
+
